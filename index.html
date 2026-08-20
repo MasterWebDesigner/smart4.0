@@ -573,9 +573,9 @@
         <p class="mt-4 text-[#AAB4C4]">Preencha e envie direto para o nosso WhatsApp. Respondemos em minutos durante o horário comercial.</p>
       </div>
 
-      <div class="grid lg:grid-cols-5 gap-10 items-start">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
         <!-- Form -->
-        <form id="budgetForm" class="lg:col-span-3 card-neon rounded-3xl p-8 sm:p-10 reveal" novalidate>
+        <form id="budgetForm" class="lg:col-span-7 card-neon rounded-2xl p-8 h-full reveal" novalidate>
           <div class="grid sm:grid-cols-2 gap-5">
             <div>
               <label for="nome" class="block text-sm font-semibold text-white mb-2">Seu nome</label>
@@ -603,8 +603,8 @@
         </form>
 
         <!-- Info -->
-        <div class="lg:col-span-2 space-y-5 reveal" style="transition-delay:.15s">
-          <div class="card-neon rounded-3xl p-6">
+        <div class="lg:col-span-5 flex flex-col gap-6 h-full justify-between reveal" style="transition-delay:.15s">
+          <div class="card-neon rounded-2xl p-6">
             <div class="flex items-center gap-3 mb-3">
               <span class="grid place-items-center w-11 h-11 rounded-xl bg-gradient-to-br from-cyanx-300/20 to-cyanx-600/20 text-cyanx-300 border border-cyanx-300/30">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.7 16.7a15 15 0 0 1-9.9-9.9l4.1-2a1 1 0 0 1 .7 0l4.1 2a1 1 0 0 1 .6.7l.7 3.8-1.5 1.5-1-2z"/><path stroke-linecap="round" stroke-linejoin="round" d="M3 21h18"/></svg>
@@ -618,15 +618,15 @@
               <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
               Abrir no Google Maps
             </a>
-            <div class="mt-5 rounded-2xl overflow-hidden border border-cyanx-300/25">
+            <div class="mt-5 aspect-video rounded-2xl overflow-hidden border border-cyanx-300/25">
               <iframe
                 title="Mapa - Rua Luiz Juliani, 84"
                 src="https://maps.google.com/maps?q=Luiz%20Juliani%2C%2084%20-%20Sao%20Paulo&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                width="100%" height="180" style="border:0; filter: grayscale(.8) invert(.9) contrast(.9);" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                class="w-full h-full border-0" style="filter: grayscale(.8) invert(.9) contrast(.9);" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
 
-          <div class="card-neon rounded-3xl p-6">
+          <div class="card-neon rounded-2xl p-6">
             <div class="flex items-center gap-3 mb-3">
               <span class="grid place-items-center w-11 h-11 rounded-xl bg-gradient-to-br from-wa-500/20 to-wa-600/20 text-wa-500 border border-wa-500/30">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.36 11.36 0 0 0 .57 3.57 1 1 0 0 1-.25 1.02z"/></svg>
@@ -647,7 +647,7 @@
   </section>
 
   <!-- ===== FOOTER ===== -->
-  <footer class="relative border-t border-white/5 bg-base-900">
+  <footer class="relative border-t border-white/5 bg-base-900 pb-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
       <div class="grid md:grid-cols-3 gap-10 items-start">
         <div>
